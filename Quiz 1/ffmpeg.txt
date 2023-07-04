@@ -1,0 +1,3 @@
+C:\ffmpeg\ffmpeg-20200831-4a11a6f-win64-static\bin/ffmpeg -f gdigrab -r 1 -probesize 20M -threads 1 -i desktop -vcodec libx264 -b:v 128k -s hd720 C:/2040c/A0214561M-cg1112-final.mp4
+
+C:/ffmpeg/ffmpeg-20200831-4a11a6f-win64-static\bin/ffplay C:/2040c/A0214561M-cg1112-final.mp4
